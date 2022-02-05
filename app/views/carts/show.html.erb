@@ -4,7 +4,8 @@
     <h1>My Cart</h1>
   </header>
 
-  <div class="panel panel-default items">
+  <% if enhanced_cart.length > 0 %>
+    <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
         <tr>
@@ -48,5 +49,13 @@
       <% end %>
     </div>
   </div>
-
+  <% else %>
+  <div class="alert alert-info"> 
+    <span class="glyphicon glyphicon-info-sign"> </span> 
+    <strong> Oops....! </strong> Looks like your cart is currently empty. Go add an item!
+    <%= link_to "Back to products", :root %> 
+    <button type="button" class="close" data-dismiss="alert"> &times; </button>
+  </div>
+  <% end %>
+  
 </section>
