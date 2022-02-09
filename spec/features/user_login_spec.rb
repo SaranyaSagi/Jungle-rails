@@ -5,9 +5,9 @@ RSpec.feature "Registered user logs in", type: :feature, js: true do
   # SETUP
   before :each do
     User.create!(
-      #first_name: 'User',
-      #last_name: 'testUser',
-      name: 'Emma Watts',
+      first_name: 'Emma',
+      last_name: 'Watts',
+      #name: 'Emma Watts',
       email: 'testing@login.com',
       password: 'randomword',
       password_confirmation: 'randomword'
