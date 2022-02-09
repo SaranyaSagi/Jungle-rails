@@ -17,7 +17,6 @@ RSpec.feature "Visitor navigates from home page to product detail page by clicki
     end
   end
   
-  
   scenario "They see all products" do
     # ACT
     visit root_path
