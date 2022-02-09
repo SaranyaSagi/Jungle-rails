@@ -2,6 +2,10 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+### ☑︎ Main page visitor access
+### ☑︎ Separate login/sign up authentication for admin access
+![general](https://github.com/SaranyaSagi/Jungle-rails/blob/master/docs/jungle.gif?raw=true)
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
