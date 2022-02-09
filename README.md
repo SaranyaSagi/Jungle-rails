@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example. Model and feature RSpec tests using capybara, poltergiest, phantomjs (npm) and database cleaner. 
 
 ### ☑︎ Main page visitor access and login/sign up authentication for admin access
 ![general](https://github.com/SaranyaSagi/Jungle-rails/blob/master/docs/jungle_full.gif?raw=true)
