@@ -3,7 +3,7 @@ class User < ActiveRecord::Base
 
   validates :first_name, presence: true
   validates :last_name, presence: true
-  #validates :name, presence: true
+  #validates :name, presence: true 
   validates :email, presence: true, uniqueness: { case_sensitive: false }
   validates :password_digest, presence: true
   validates :password, length: { minimum: 6 }
@@ -14,6 +14,7 @@ class User < ActiveRecord::Base
 
   end
 
+  # to use in navbar where it says current_user.full_name
   def full_name 
     "#{first_name} #{last_name}"
   end
